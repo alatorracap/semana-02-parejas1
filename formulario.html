@@ -4,15 +4,30 @@
     <meta charset="UTF-8" />
     <title>Envía tu noticia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body id="formulario">
     <header>
       <h1>Envía tu noticia</h1>
       <nav>
-        <a href="/" class="button">Portada</a>
+        <a href="/index.html" class="button">Portada</a>
       </nav>
     </header>
 
-    <main>(poner aquí el formulario)</main>
+    <main>
+<Section><h2>Cubre estos datos para enviar tu noticia</h2></Section>
+<fieldset>
+<label for="idname">Titulo de la noticia</label>
+            <input type="text" name="nametext" id="idname" autofocus required />
+            <label for="textarea">Texto de la noticia</label>
+            <textarea
+            name="textarea"
+            id="textarea"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+<button>Enviar</button>
+    </main>
   </body>
 </html>
